@@ -1,6 +1,3 @@
-Enigma Hack Tech Sup Back
-Бэкенд-часть решения для хакатона (команда Enigma). Репозиторий: https://github.com/Limekee/enigma_hack_tech_sup_back
-
 📝 Описание проекта
 Кейс: Создание автоматизированной системы для службы поддержки газовой службы.
 
@@ -27,13 +24,21 @@ ML Integration Layer: Отдельный модуль/микросервис, п
 В проекте использован следующий стек технологий:
 
 Язык программирования: Python 3.11+
+
 Фреймворк: FastAPI (высокопроизводительный асинхронный фреймворк)
+
 База данных: PostgreSQL
+
 ORM: SQLAlchemy 2.0 / Alembic (миграции)
+
 Валидация данных: Pydantic v2
+
 ML/NLP: (Указать используемое, например: OpenAI API / HuggingFace Transformers / scikit-learn)
+
 Контейнеризация: Docker, Docker Compose
+
 WSGI/ASGI сервер: Uvicorn
+
 🚀 Запуск проекта
 Требования
 Установленный Docker и Docker Compose
