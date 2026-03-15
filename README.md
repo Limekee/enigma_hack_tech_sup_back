@@ -24,7 +24,7 @@
   -Containerization через Docker
 
 # Локальный запуск
-bash
+bash```
   // Клонировать репозиторий
   git clone https://github.com/Limekee/enigma_hack_tech_sup_back.git
   cd enigma_hack_tech_sup_back
@@ -39,7 +39,7 @@ bash
   //Или локально
   pip install -r requirements.txt
   uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
-
+  ```
 # API Документация
 После запуска доступна по адресу: http://localhost:8000/docs
 
