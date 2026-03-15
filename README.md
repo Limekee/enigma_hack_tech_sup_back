@@ -1,11 +1,3 @@
-graph TD
-    A[📧 IMAP Polling<br/>Входящие письма] --> B[NLP Pipeline<br/>Natasha/Dostoevsky/Sumy]
-    B --> C[🤖 AI RAG<br/>Генерация ответа]
-    C --> D[🗄️ PostgreSQL<br/>Сохранение тикета]
-    D --> E[🔴 Redis Pub/Sub<br/>Событие]
-    E --> F[📱 Telegram Bot<br/>Уведомление]
-    F --> G[🖥️ Frontend SvelteKit<br/>Редактирование]
-    G --> H[📤 SMTP<br/>Ответ пользователю]
 Автоматизированная система обработки обращений службы поддержки газовой службы с AI, NLP и асинхронной архитектурой.
 
 🎯 Описание проекта
